@@ -59,7 +59,7 @@ mark {
 	background-color: transparent;
 	color: inherit;
 }
-
+/*
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
@@ -70,7 +70,7 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
-}
+}*/
 
 /* Basic */
 
