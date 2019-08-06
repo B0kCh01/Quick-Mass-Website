@@ -1,8 +1,13 @@
-Story by HTML5 UP
+# Quick-Mass Website
+Welcome to the source code of quick-mass
+## This website was built on top of HTML5 UP templates
+Thanks AJ for the many templates! Go check him out: 
+
+# Story by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
-
+## About
 Say hello to Story, a brand new responsive one-pager for HTML5 UP! Inspired by my work
 on Carrd*, Story is built to be extremely modular and tweakable, and as such is entirely
 built on reusable, insanely customizable elements (like "spotlight" and "gallery") that
