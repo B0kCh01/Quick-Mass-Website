@@ -6917,7 +6917,8 @@ input, select, textarea {
 				opacity: 0;
 				padding: 3rem;
 				z-index: 1;
-				font-size: 0.8rem;
+				font-size: 0.9rem;
+				text-align: center;
 			}
 
 				.gallery.style2 article .caption a {
@@ -6925,7 +6926,10 @@ input, select, textarea {
 				}
 
 				.gallery.style2 article .caption h2, .gallery.style2 article .caption h3, .gallery.style2 article .caption h4, .gallery.style2 article .caption h5, .gallery.style2 article .caption h6 {
-					font-size: 1.25rem;
+					text-align: center;
+					font-size: 0.9rem;
+					letter-spacing: 0.6rem;
+					font-weight: bold;
 					margin-bottom: 0.25rem;
 				}
 
