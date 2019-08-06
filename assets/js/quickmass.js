@@ -70,12 +70,9 @@ function getMass(rawInput) {
 
     operators = ["+", "*"];
     for (i = 0; i < tokenList.length; i++){
-    	console.log("Trying: " + tokenList[i]);
     	if (getType(tokenList[i]) == "str" && !operators.includes(tokenList[i])) {
     		tokenList.splice(i, 1, elementWeight[elementSymbol.indexOf(tokenList[i])]);
-    		console.log("Replaced");
     	} else {
-    		console.log("Rejected");
     	}
     }
     console.log(tokenList);
@@ -92,7 +89,6 @@ function getMass(rawInput) {
 
 // Main UI chainging jQUery
 $("#name").on("keyup paste", function() {
-	console.clear();
     if ($("#name").val() == "") {
         document.getElementById("molar-mass").innerHTML = "Enter Compound Here";
     } else {
